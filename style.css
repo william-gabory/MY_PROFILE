@@ -1,0 +1,113 @@
+/* Custom with class */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card-blue {
+  background-color: #FFEBB4;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-blue h1,
+.card-blue h2 {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card-blue p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.btn-blue {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4d3273;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.btn-blue:hover {
+  background-color: #65499c;
+}
+
+
+/* Colors and fonts */
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ul.list-inline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul.list-inline li:last-child {
+  margin-right: 0;
+}
+
+ul.list-inline li a {
+  color: #4d3273;
+  font-size: 45px;
+  text-decoration: none;
+}
+
+ul.list-inline li a:hover {
+  color: #65499c;
+}
+
+
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+  .card-blue {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+/* styles for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 80%;
+  }
+  .card-blue {
+    margin-bottom: 30px;
+  }
+}
+
+/* styles for screens larger than 1023px */
+@media (min-width: 1024px) {
+  .container {
+    width: 70%;
+  }
+  .card-blue {
+    margin-bottom: 40px;
+  }
+}
+
+body {
+  background-color: #ffe6e6;
+}
